@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(185, 217, 167);
+  margin: 0 0 30px 0;
+  padding: 30px;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+ul {
+  margin: auto;
+  max-width: 500px;
+}
+li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+/*** container ***/
+#main {
+  background-color: rgb(185, 217, 167);
+  padding: 10px;
+}
+#img-div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px auto 60px auto;
+  width: 50%;
+}
+figure {
+  margin: auto;
+  padding: 5px;
+  width: 90%;
+}
+#image {
+  display: block;
+  margin: 30px auto 40px auto;
+  max-width: 90%;
+}
+figcaption {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*** timeline & link ***/
+#tribute-info {
+  margin-bottom: 20px;
+}
+.link-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  width: 80%;
+}
+#tribute-link {
+  text-decoration: none;
+}
+
+/* Mobile devices */
+/* applies to all widths 400px and less */
+@media (max-width: 400px) {
+ 
+}
